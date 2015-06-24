@@ -34,6 +34,7 @@ function ask() {
       pool.end();
       console.log( "bye");
     } else if ( args[0] === 'help' ) {
+      console.log( "exit");
       console.log( "users");
       console.log( "addUserRoles       userId roles");
       console.log( "removeUserRoles    userId roles");

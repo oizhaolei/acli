@@ -26,13 +26,15 @@ create a config.json file and fill in the following values:
 
 }
 ```
+Run it!
 ``` shell
-vim config.json
 npm install
 node index.js
 ```
 ### Commands
 ``` shell
+help
+exit
 users
 addUserRoles       userId roles
 removeUserRoles    userId roles
@@ -50,4 +52,19 @@ isAllowed          userId resource permissions
 areAnyRolesAllowed roles resource permissions
 whatResources      roles permissions
 permittedResources roles permissions
+```
+### Example
+``` shell
+? > help
+? > allow guest blogs view
+? > allow member blogs edit
+? > addUserRoles joed guest
+? > addUserRoles jsmith member
+? > addUserRoles harry admin
+? > userRoles harry
+? > hasRole harry admin
+? > userRoles joed
+? > isAllowed james blogs edit
+? > roleUsers foo
+? > exit
 ```
