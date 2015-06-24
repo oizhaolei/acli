@@ -1,0 +1,33 @@
+{
+  "name": "acli",
+  "version": "1.0.0",
+  "description": "An intractive command line to manage ACL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:oizhaolei/acli.git"
+  },
+  "keywords": [
+    "cli",
+    "acl",
+    "permissions"
+  ],
+  "author": "zhaolei <oizhaolei@gmail.com> (https://github.com/oizhaolei)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oizhaolei/acli/issues"
+  },
+  "homepage": "https://github.com/oizhaolei/acli",
+  "dependencies": {
+    "acl": "^0.4.7",
+    "inquirer": "^0.8.5",
+    "mysql": "^2.7.0",
+    "redis": "^0.12.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}
