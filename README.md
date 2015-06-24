@@ -3,7 +3,7 @@ ACLI
 An interactive command line to manage ACL.
 
 ## Documentation
-### Access Control Lists for Node
+### Access Control Lists for Node, Mysql, Redis
 ### Usage
 create a config.json file and fill in the following values:
 ``` js
