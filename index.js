@@ -141,8 +141,9 @@ function ask() {
         if (err) console.log(err);
       });
 
-     } else if ( args.length === 0 || args[0] === '' ) {
-     } else {
+    } else if ( args.length === 0 || args[0] === '' ) {
+      //nothing
+    } else {
       console.log( "command not found");
     }
     ask();
